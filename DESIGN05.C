@@ -1,11 +1,13 @@
 #include<stdio.h>
 void main()
 {
-int i,j;
+int i,j,n;
+printf("\n enter a number");
+scanf("%d",&n);
 clrscr();
-for(i=1;i<=4;i++)
+for(i=1;i<=n;i++)
 {
- for(j=1;j<=i;j++)
+ for(j=i;j>=1;j--)
  {
   printf("%d",j);
  }
